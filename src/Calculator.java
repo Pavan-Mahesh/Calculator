@@ -185,7 +185,6 @@ public class Calculator implements ActionListener{
             label.setText(Float.toString(result));
             textField.setText(Float.toString(result));
             resultPrinted = true;
-            return;
         }
     }
 }
